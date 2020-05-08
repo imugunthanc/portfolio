@@ -945,7 +945,7 @@ main.dark .article {
   animation: winkAnimation 2s ease-in-out 2s infinite;
 }
 .main .hero p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #9f88ea;
   max-width: 80%;
