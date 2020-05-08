@@ -1,11 +1,16 @@
-*{
-    @extend %primary-font;
+* {
+  @extend %secondary-font;
 }
-body, input, input::placeholder, select, button, textarea{
-    font-size: 14px;
-    line-height: 1.4;
+body,
+input,
+input::placeholder,
+select,
+button,
+textarea {
+  font-size: 14px;
+  line-height: 1.4;
 }
 
-body{
-    color: $primary-text-color;
+body {
+  color: $primary-text-color;
 }

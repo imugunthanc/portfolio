@@ -1,33 +1,33 @@
-
 %primary-font {
-    font-family: 'Courier Prime', monospace;
+  font-family: "Courier Prime", monospace;
 }
 %secondary-font {
-    font-family: 'Courier Prime', monospace;
+  font-family: "Montserrat", sans-serif;
 }
 
-%left{
-	float: left;
+%left {
+  float: left;
 }
-%right{
-	float: right;
+%right {
+  float: right;
 }
 
-%v-align{
+%v-align {
   display: inline-block;
   vertical-align: middle;
 }
 
 %clearfix {
-    *zoom: 1;
-    &:before, &:after {
-      content: " ";
-      display: table;
-    }
-    &:after {
-      clear: both;
-    }
+  *zoom: 1;
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
   }
+  &:after {
+    clear: both;
+  }
+}
 
 %flexbox {
   display: -webkit-box;
